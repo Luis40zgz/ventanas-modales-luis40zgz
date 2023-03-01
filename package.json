@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "scp -P 22123 ./* luis@luis.certweb.infenlaces.com:/home/luis/luisconproxy/web/v_modales/"
   },
   "author": "",
   "license": "ISC",
